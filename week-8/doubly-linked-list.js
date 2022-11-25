@@ -86,7 +86,7 @@ class DoublyLinkedList {
     let previousNode = this.head;
 
     // traverse upto 1 index before the target index
-    for (let k = 1; k < index - 1; k++) {
+    for (let k = 0; k < index - 1; k++) {
       previousNode = previousNode.next;
     }
 
@@ -176,7 +176,7 @@ class DoublyLinkedList {
     let previousNode = this.head;
 
     // traverse upto 1 index before the target index
-    for (let k = 1; k < index - 1; k++) {
+    for (let k = 0; k < index - 1; k++) {
       previousNode = previousNode.next;
     }
 
@@ -244,13 +244,13 @@ const doublyLinkedList = new DoublyLinkedList("Samurai Jack the first");
 
 doublyLinkedList.prepend("Samurai Champloo");
 doublyLinkedList.prepend("Yoriichi Tsugikuni the first sun breather");
-doublyLinkedList.insert(2, "Tanjiro Kamado last sun breather");
+doublyLinkedList.insert(1, "Tanjiro Kamado last sun breather");
 doublyLinkedList.append("Giyu Tomioka");
 doublyLinkedList.append("last samurai");
 doublyLinkedList.insert(6, "Ronin");
 doublyLinkedList.pop();
 doublyLinkedList.shift();
 doublyLinkedList.removeAt(2);
-doublyLinkedList.removeWithValue("Giyu Tomioka");
+// doublyLinkedList.removeWithValue("Giyu Tomioka");
 // doublyLinkedList.removeWithValue("last samurai");
 // doublyLinkedList.removeWithValue("Tanjiro Kamado last sun breather");
