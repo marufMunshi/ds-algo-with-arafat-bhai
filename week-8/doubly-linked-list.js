@@ -240,17 +240,19 @@ class DoublyLinkedList {
   }
 }
 
-const doublyLinkedList = new DoublyLinkedList("Samurai Jack the first");
+// const doublyLinkedList = new DoublyLinkedList("Samurai Jack the first");
 
-doublyLinkedList.prepend("Samurai Champloo");
-doublyLinkedList.prepend("Yoriichi Tsugikuni the first sun breather");
-doublyLinkedList.insert(1, "Tanjiro Kamado last sun breather");
-doublyLinkedList.append("Giyu Tomioka");
-doublyLinkedList.append("last samurai");
-doublyLinkedList.insert(6, "Ronin");
-doublyLinkedList.pop();
-doublyLinkedList.shift();
-doublyLinkedList.removeAt(2);
+// doublyLinkedList.prepend("Samurai Champloo");
+// doublyLinkedList.prepend("Yoriichi Tsugikuni the first sun breather");
+// doublyLinkedList.insert(1, "Tanjiro Kamado last sun breather");
+// doublyLinkedList.append("Giyu Tomioka");
+// doublyLinkedList.append("last samurai");
+// doublyLinkedList.insert(6, "Ronin");
+// doublyLinkedList.pop();
+// doublyLinkedList.shift();
+// doublyLinkedList.removeAt(2);
 // doublyLinkedList.removeWithValue("Giyu Tomioka");
 // doublyLinkedList.removeWithValue("last samurai");
 // doublyLinkedList.removeWithValue("Tanjiro Kamado last sun breather");
+
+module.exports = DoublyLinkedList;
