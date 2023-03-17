@@ -120,5 +120,3 @@ console.log("nothing_phone_1 => ", nothing_phone_1_value);
 
 const not_in_the_cache_value = lruCache.getItemFromStorage("not_in_the_cache");
 console.log("not_in_the_cache => ", not_in_the_cache_value);
-
-// lruCache.print();
