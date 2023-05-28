@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/reverse-linked-list/
+
 /**
  * Definition for singly-linked list.
  * function ListNode(val, next) {
@@ -10,14 +12,14 @@
  * @return {ListNode}
  */
 var reverseList = function (head) {
-  let curr = head;
+  let list = head;
   let prev = null;
 
-  while (curr) {
-    const next = curr.next;
-    curr.next = prev;
-    prev = curr;
-    curr = next;
+  while (list) {
+    const next = list.next;
+    list.next = prev;
+    prev = list;
+    list = next;
   }
 
   return prev;
