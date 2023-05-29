@@ -20,6 +20,12 @@ var isAnagram = function (s, t) {
     }
   }
 
+  /**
+   * firstWordCharMap
+   * a: 2
+   * c: 2
+   */
+
   for (let j = 0; j < t.length; j++) {
     if (firstWordCharMap.has(t[j]) === false) {
       return false;
